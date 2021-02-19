@@ -1,0 +1,160 @@
+<html lang="en" >
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="cat1.css">
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> <!--for cart-->
+     <!--prod and favrt-->
+         <link rel="stylesheet" href="prodstyle.css" >
+    <!-- Latest compiled and minified CSS for prod -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+  <script src='https://kit.fontawesome.com/a076d05399.js' data-target="#prodcr"></script>
+  <style type="text/css">
+    h2{
+      color: white;
+    }
+    body{
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <section class="Appointment-form" style="margin: 0 auto">
+   
+    <div class="container" style="width: 1170px; height: 720px;">
+      <div class="row">
+        <div class="regform col-lg-12 col-sm-12" style="margin: auto">
+          <div class="default-form-area sp-ten">
+            <div class="sec-title-one mb-45">
+              <h5>Wellness Matters</h5>
+              <h2><span>Make An</span><br>Appointment</h2>
+            </div>
+            <form id="contact-form" name="contact_form" class="contact-form style-two" action="inc/sendmail.php"
+              method="post" novalidate="novalidate">
+              <div class="row clearfix">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="form-group">
+                    <label for="name">First Name</label>
+                    <input type="text" name="form_name" class="form-control" value="" placeholder="First Name"
+                      required="" aria-required="true">
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="form-group">
+                    <label for="name">Last Name</label>
+                    <input type="text" name="form_name" class="form-control" value="" placeholder="Last Name"
+                      required="" aria-required="true">
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="form-group">
+                    <label for="mail">Email</label>
+                    <input type="email" name="form_email" class="form-control required email" value=""
+                      placeholder="user@abc" required="" aria-required="true">
+                  </div>
+                 </div>
+
+
+
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="form-group">
+                      <label for="gender">Gender</label>
+    
+<select id="gender" class="form-control textarea required" style="height: 62px;padding-top: 10px;padding-bottom: 10px;padding-right: 20px;padding-left: 20px">
+  <option value="male" selected> Male</option>
+  <option value="female">Female</option>
+</select>
+                  </div>
+                </div>
+                       <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="form-group">
+        <label for="name">Phone Number</label>  
+                    <input type="Number" name="form_name" class="form-control" value="" placeholder="Phone Number"
+                      required="" aria-required="true">
+                  </div>
+
+
+                </div>
+
+             <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="form-group">
+                    <label for="slot" class="form-label">Date</label>
+                    <input type="date" id="slot" name="slot" class="form-control textarea required">
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="form-group">
+                      <label for="slot">Time Slot</label>
+
+<select id="slot" class="form-control textarea required" style="height: 62px;padding-top: 10px;padding-bottom: 10px;padding-right: 20px;padding-left: 20px">
+  <option value="first" selected> 9 a.m.-12 noon</option>
+  <option value="second">1 p.m.-4 p.m.</option>
+  <option value="third">7 p.m.-10 p.m.</option>
+</select>
+                  </div>
+                </div>
+
+
+
+                       <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="form-group">
+                      <label for="category">Category</label>
+
+<select id="category" class="form-control textarea required" style="height: 62px;padding-top: 10px;padding-bottom: 10px;padding-right: 20px;padding-left: 20px">
+  <option value="volvo" selected> Nutrition</option>
+  <option value="saab">Cat2</option>
+  <option value="vw">Cat3</option>
+</select>
+                  </div>
+                </div>
+                       <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="form-group">
+                      <label for="type">Type</label>
+
+<select id="type" class="form-control textarea required" style="height: 62px;padding-top: 10px;padding-bottom: 10px;padding-right: 20px;padding-left: 20px">
+  <option value="volvo" selected>Online Consultation</option>
+  <option value="saab">Visit Us</option>      
+</select>
+                  </div>
+
+     </div>
+
+          
+            <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="form-group">
+                    <label for="message">Additional Message</label>
+                    <textarea name="form_message" class="form-control textarea required" placeholder="Your Message"
+                      aria-required="true"></textarea>
+
+                  </div>
+                </div>
+
+
+
+
+
+              </div>
+              <div class="contact-section-btn mt-20">
+                <div class="form-group">
+                  <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                  <button class="btn" type="submit" data-loading-text="Please wait...">Next</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+  </html>

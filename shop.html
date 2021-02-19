@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="shop.css">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" id="#myCarousel2"> <!--for cart-->
+     <!--prod and favrt-->
+         <link rel="stylesheet" href="prodstyle.css" >
+    <!-- Latest compiled and minified CSS for prod -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+  <script src='https://kit.fontawesome.com/a076d05399.js' data-target="#prodcr"></script>
+  </head>
+  <body>
+    <header>
+    
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="border: 0rem; margin-bottom: 0rem">
+        <a class="navbar-brand col-md-6"  href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <ul class="navbar-nav col-md-6">
+            <li  class="list">
+       <a class="btn btn-info"style="color:white;background-color: #333B3F;border-color: white;line-height: 18px;margin-right: 5px;">
+        <span class="glyphicon glyphicon-filter" style="cursor:pointer;color: white" onclick="openNav()"></span>
+         </a> 
+              <a href="#" class="btn btn-info"style="color:white;background-color: #333B3F;border-color: white;line-height: 18px;margin-right: 5px">
+                <span class="glyphicon glyphicon-user"></span>
+              </a>  
+    
+              <a href="#" class="btn btn-info"style="color:white;background-color: #333B3F;border-color: white;line-height: 18px;margin-right: 5px">
+                <span class="glyphicon glyphicon-bookmark"></span>
+              </a> 
+            <a href="#" class="btn btn-info"style="color:white;background-color: #333B3F;border-color: white;line-height: 18px;">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              </a> 
+            </li>
+          </ul>
+        </div>
+      
+      </nav>
+    
+  
+    </header>
+  <main>
+ <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a style="color: white">CATEGORY</a>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1" style="color: white"> Category 1</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Category 2</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Category3</label><br><br>
+  <a style="color: white">GENDER</a>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Male</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Female</label><br> <br>  
+  <input class="btn btn-info"style="color:white;background-color: #333B3F;border-color: white;line-height: 18px;" type="submit" value="Apply filter">
+</div>
+
+
+<body>
+<!--Shop products-->
+<div class="prodpg" style="margin-top: 120px">
+<div class="col-xs-6 col-sm-4 col-md-3">
+                      <a href="#"><img src="https://images.unsplash.com/photo-1539840093138-9b3e230e5206?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=765a2eb222b1851840a4a157780fb487&auto=format&fit=crop&w=1534&q=80" class="img-responsive center-block"></a>
+                      <div class=txt-box>
+                        <h4 class="text-center">PRODUCT 1</h4>
+                        <h5 class="text-center">3000 &#8377;</h5>
+                      </div>
+                      <h5 class="text-center"><a class="btn" href="#" role="button" style="background-color: black; border: none;color:white">Add to Cart</a>
+                        <button class="btn" style='font-size:12px' onClick="this.style.color='red'" onClick="this.style.color='black'"><i class='fas fa-heart'></i></button>
+                      </h5>
+                    </div>
+
+
+
+                    <div class="col-xs-6 col-sm-4 col-md-3">
+                        <a href="#"><img src="https://images.unsplash.com/photo-1524010349062-860def6649c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e725946a3f177dce83a705d4b12019c2&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+                      <div class="txt-box">
+                        <h4 class="text-center">PRODUCT 2</h4>
+                        <h5 class="text-center">1000 &#8377;</h5>
+                      </div>
+                      <h5 class="text-center"><a class="btn" href="#" role="button" style="background-color: black; border: none;color:white;float: bottom">Add to Cart</a>
+                        <button class="btn" style='font-size:12px' onClick="this.style.color='red'" onClick="this.style.color='black'"><i class='fas fa-heart'></i></button>
+                      </h5>     
+                    </div>
+
+
+                      <div class="col-xs-6 col-sm-4 col-md-3">
+                           <a href="#"><img src="https://images.unsplash.com/photo-1511556820780-d912e42b4980?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=04aebe9a22884efa1a5f61e434215597&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+                      <span class="badge">50%</span>
+                      <div class="txt-box">
+                         <h4 class="text-center">PRODUCT 3</h4>
+                         <h5 class="text-center">2500 &#8377;</h5>
+                         <h6 class="text-center"><strike>5000 &#8377;</strike></h6>
+                      </div>             
+                      <h5 class="text-center"><a class="btn" href="#" role="button" style="background-color: black; border: none;color:white">Add to Cart</a>
+                        <button class="btn" style='font-size:12px' onClick="this.style.color='red'" onClick="this.style.color='black'"><i class='fas fa-heart'></i></button>
+                      </h5>        
+                    </div>
+
+
+
+                        <div class="col-xs-6 col-sm-4 col-md-3">
+                              <a href="#"><img src="https://images.unsplash.com/photo-1531925470851-1b5896b67dcd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=91fe0ca1b5d72338a8aac04935b52148&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+                      <div class="txt-box">
+                        <h4 class="text-center">PRODUCT 4</h4>
+                        <h5 class="text-center">4000 &#8377;</h5>
+                      </div>
+                      <h5 class="text-center"><a class="btn" href="#" role="button" style="background-color: black; border: none;color:white">Add to Cart</a>
+                        <button class="btn" style='font-size:12px' onClick="this.style.color='red'" onClick="this.style.color='black'"><i class='fas fa-heart'></i></button>
+                      </h5>            
+                    </div>
+
+
+
+                          <div class="col-xs-6 col-sm-4 col-md-3">
+                                <a href="#"><img src="https://images.unsplash.com/photo-1516961642265-531546e84af2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=74065eec3c2f6a8284bbe30402432f1d&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+                      <div class="txt-box">
+                        <h4 class="text-center">PRODUCT 5</h4>
+                        <h5 class="text-center">6000 &#8377;</h5>
+                      </div>
+                      <h5 class="text-center"><a class="btn" href="#" role="button" style="background-color: black; border: none;color:white">Add to Cart</a>
+                        <button class="btn" style='font-size:12px' onClick="this.style.color='red'" onClick="this.style.color='black'"><i class='fas fa-heart'></i></button>
+                      </h5>            
+                    </div>
+
+
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                  <a href="#"><img src="https://images.unsplash.com/photo-1532086853747-99450c17fa2e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61a42a11f627b0d21d0df757d9b8fe23&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+                      <div class="txt-box">
+                        <h4 class="text-center">PRODUCT 6</h4>
+                        <h5 class="text-center">3500 &#8377;</h5>
+                      </div>
+                      <h5 class="text-center"><a class="btn" href="#" role="button" style="background-color: black; border: none;color:white;float: bottom">Add to Cart</a>
+                      <button class="btn" style='font-size:12px' onClick="this.style.color='red'" onClick="this.style.color='black'"><i class='fas fa-heart'></i></button>
+                      </h5>         
+                    </div>
+
+                          <div class="col-xs-6 col-sm-4 col-md-3">
+                                  <a href="#"><img src="https://images.unsplash.com/photo-1532086853747-99450c17fa2e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61a42a11f627b0d21d0df757d9b8fe23&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+                      <div class="txt-box">
+                        <h4 class="text-center">PRODUCT 6</h4>
+                        <h5 class="text-center">3500 &#8377;</h5>
+                      </div>
+                      <h5 class="text-center"><a class="btn" href="#" role="button" style="background-color: black; border: none;color:white;float: bottom">Add to Cart</a>
+                      <button class="btn" style='font-size:12px' onClick="this.style.color='red'" onClick="this.style.color='black'"><i class='fas fa-heart'></i></button>
+                      </h5>         
+                    </div>
+
+                          <div class="col-xs-6 col-sm-4 col-md-3">
+                                  <a href="#"><img src="https://images.unsplash.com/photo-1532086853747-99450c17fa2e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61a42a11f627b0d21d0df757d9b8fe23&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+                      <div class="txt-box">
+                        <h4 class="text-center">PRODUCT 6</h4>
+                        <h5 class="text-center">3500 &#8377;</h5>
+                      </div>
+                      <h5 class="text-center"><a class="btn" href="#" role="button" style="background-color: black; border: none;color:white;float: bottom">Add to Cart</a>
+                      <button class="btn" style='font-size:12px' onClick="this.style.color='red'" onClick="this.style.color='black'"><i class='fas fa-heart'></i></button>
+                      </h5>         
+                    </div>
+
+                          <div class="col-xs-6 col-sm-4 col-md-3">
+                                  <a href="#"><img src="https://images.unsplash.com/photo-1532086853747-99450c17fa2e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61a42a11f627b0d21d0df757d9b8fe23&auto=format&fit=crop&w=500&q=60" class="img-responsive center-block"></a>
+                      <div class="txt-box">
+                        <h4 class="text-center">PRODUCT 6</h4>
+                        <h5 class="text-center">3500 &#8377;</h5>
+                      </div>
+                      <h5 class="text-center"><a class="btn" href="#" role="button" style="background-color: black; border: none;color:white;float: bottom">Add to Cart</a>
+                      <button class="btn" style='font-size:12px' onClick="this.style.color='red'" onClick="this.style.color='black'"><i class='fas fa-heart'></i></button>
+                      </h5>         
+                    </div>
+
+                  
+<!--end shop-->
+  <!-- FOOTER -->
+    <footer id="specdiv" style="max-height: 70px"> <!--inserting footr.html-->
+      <iframe width="100%" height="100%" frameborder="0" style="max-height: 50px"  src="footr.html"></iframe> 
+      <p class="float-right"><a href="#" style="color: black">Back to top</a></p>
+    </footer> 
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>
+      window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+  
+  </main>
+  </body>
+</html> 
